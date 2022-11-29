@@ -1,0 +1,63 @@
+.welcome {
+  height: auto;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .welcome {
+    display: none;
+  }
+}
+
+.recipe {
+  height: initial;
+}
+
+.ranking-members {
+  border-radius: 5px;
+  background: #f5f2f2;
+  max-width: 350px;
+}
+
+.ranking-members .avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.ranking-members .avatar:hover {
+  transform: scale(1.05);
+  transition: .3s;
+}
+
+.ranking-members .profile .username {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ranking-members .top {
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.ranking-members .top div {
+  width: 65%;
+  height: 65%;
+  font-family: cursive;
+}
+
+.title a {
+  text-decoration: none;
+  color: black;
+}
+
+.title a:hover {
+  color: brown;
+}
