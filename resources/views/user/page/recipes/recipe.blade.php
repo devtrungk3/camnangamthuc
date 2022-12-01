@@ -1,17 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang chủ</title>
     @include('library.toplibs')
 </head>
-<body>
-    
-    @include('header_footer.header')
-    @include('user.page.tips.body_tips')
-    @include('header_footer.footer')
 
-    @include('library.bottomlibs')
+<body>
+    @include('header_footer.header')
+    @include('user.page.recipes.body.body')
+    @include('header_footer.footer')
 </body>
+@include('library.bottomlibs')
+
 </html>

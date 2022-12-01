@@ -1,0 +1,51 @@
+.bg-main {
+    background: #394f62;
+    font-family: "Roboto Mono", monospace;
+}
+
+.bg-main .title {
+    font-size: 25px;
+}
+
+.bg-main label {
+    color: white;
+    font-family: 'Itim', cursive; 
+    font-size: 16px;
+}
+
+.bg-main input {
+    background: #54657d;
+    border: none;
+}
+
+.bg-main select {
+    background: #54657d;
+    border: none;
+}
+
+.bg-main textarea {
+    background: #54657d;
+    border: none;
+}
+
+.bg-main button {
+    background: #f5a623;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f5a623;
+    transition: 0.2s;
+}
+
+.bg-main button:hover {
+    background: #00000000;
+    color: #f5a623;
+}
+
+.bg-main .btn-submit {
+    width: 200px;
+}
+
+#editor {
+    background: #54657d;
+    border: none;
+}

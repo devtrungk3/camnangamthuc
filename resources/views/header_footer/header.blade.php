@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="/css/header.css">
 
-<div style="margin-bottom: 65px"></div>
+<div style="height: 65px" class="bg-dark"></div>
 
-<nav class="navbar navbar-expand-lg navbar-dark pos-fixed w-100 px-2 top-0 left-0" style="background-color: rgba(0, 0, 0, 0.882)" id="header">
+<nav class="navbar navbar-expand-lg navbar-dark pos-fixed w-100 px-2 top-0 left-0" style="background-color: rgba(0, 0, 0, 0.696)" id="header">
     <a href="#" class="nav-brand p-0 rounded-circle overflow-hidden" id="nav-brand">
         <img src="https://cs-wordpress.s3.amazonaws.com/crowdsource-v4/uploads/2014/07/recipes.png" alt="" style="height: 50px">
     </a>
@@ -13,19 +13,19 @@
     <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item px-3">
-                <a href="" class="nav-link" id="">Trang chủ</a>
+                <a href="{{ route('index') }}" class="nav-link" id="">Trang chủ</a>
             </li>
             <li class="nav-item px-3">
-                <a href="" class="nav-link" id="">Công thức</a>
+                <a href="{{ route('recipes') }}" class="nav-link" id="">Công thức</a>
             </li>
             <li class="nav-item px-3">
-                <a href="" class="nav-link" id="">Mẹo vặt</a>
+                <a href="{{ route('tips') }}" class="nav-link" id="">Mẹo vặt</a>
             </li>
             <li class="nav-item px-3">
-                <a href="" class="nav-link" id="">Tin tức</a>
+                <a href="{{ route('news') }}" class="nav-link" id="">Tin tức</a>
             </li>
             <li class="nav-item px-3">
-                <a href="" class="nav-link" id="">Chia sẻ</a>
+                <a href="{{ route('share') }}" class="nav-link" id="">Chia sẻ</a>
             </li>
             <li class="hidden nav-item px-3">
                 @if (Route::has('login'))

@@ -38,7 +38,7 @@
                     class="bi bi-suit-heart"></i></div>
         </div>
 
-        @include('user.page.recipe.body.text_recipe')
+        @include('user.page.recipes.body.text_recipe')
 
         <div class="pagi justify-content-center">
             {{-- <li class="page-item previous-page disable"><a href="#" class="page-link">Prev</a></li>

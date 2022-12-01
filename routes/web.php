@@ -16,7 +16,23 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/recipes', function () {
+    return view('user.page.recipes.recipe');
+})->name('recipes');
+Route::get('/tips', function () {
+    return view('user.page.tips.tips');
+})->name('tips');
+Route::get('/news', function () {
+    return view('user.page.news.news');
+})->name('news');
+Route::get('/share', function () {
+    return view('share.share');
+})->name('share');
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
