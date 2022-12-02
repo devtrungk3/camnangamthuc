@@ -7,13 +7,13 @@
             <div class="p-5">
                 <div class="row">
                     <div class="title text-white">
-                        THÊM CÔNG THỨC
+                        THÊM BÀI VIẾT
                     </div>
                     <div class="p-3 col-xl-7 col-lg-7 col-md-12">
                         <!-- name of repice -->
                         <div class="form-group mb-3">
-                            <label for="name_recipe">Tên công thức</label>
-                            <input type="text" id="name_recipe" name="name_recipe" class="form-control rounded-0">
+                            <label for="name">Tên</label>
+                            <input type="text" id="name" name="name" class="form-control rounded-0">
                         </div>
                         <!-- categories -->
                         <div class="form-group mb-3">

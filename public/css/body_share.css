@@ -1,5 +1,5 @@
 .bg-main {
-    background: #394f62;
+    background-color: #394f62;
     font-family: "Roboto Mono", monospace;
 }
 
@@ -14,18 +14,31 @@
 }
 
 .bg-main input {
-    background: #54657d;
+    background-color: #54657d;
     border: none;
+    color: white;
+}
+
+.bg-main input:focus {
+    background-color: #54657d;
+    color: white;
 }
 
 .bg-main select {
-    background: #54657d;
+    background-color: #54657d;
     border: none;
+    color: white;
 }
 
 .bg-main textarea {
-    background: #54657d;
+    background-color: #54657d;
     border: none;
+    color: white;
+}
+
+.bg-main textarea:focus {
+    background-color: #54657d;
+    color: white;
 }
 
 .bg-main button {
