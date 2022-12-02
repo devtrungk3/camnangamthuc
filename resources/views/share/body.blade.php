@@ -12,8 +12,8 @@
                     <div class="p-3 col-xl-7 col-lg-7 col-md-12">
                         <!-- name of repice -->
                         <div class="form-group mb-3">
-                            <label for="name">Tên</label>
-                            <input type="text" id="name" name="name" class="form-control rounded-0">
+                            <label for="title">Tiêu đề</label>
+                            <input type="text" id="title" name="title" class="form-control rounded-0">
                         </div>
                         <!-- categories -->
                         <div class="form-group mb-3">
