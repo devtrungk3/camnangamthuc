@@ -9,48 +9,28 @@
   color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 770px) {
   .welcome {
     display: none;
   }
 }
 
-.recipe {
-  height: initial;
-}
-
-.ranking-members {
-  border-radius: 5px;
-  background: #f5f2f2;
-  max-width: 350px;
-}
-
-.ranking-members .avatar {
-  width: 50px;
-  height: 50px;
-}
-
-.ranking-members .avatar:hover {
-  transform: scale(1.05);
-  transition: .3s;
-}
-
-.ranking-members .profile .username {
-  max-width: 180px;
+.headline {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
 }
 
-.ranking-members .top {
-  color: white;
-  width: 50px;
-  height: 50px;
+.headline:hover {
+  text-decoration: underline;
 }
 
-.ranking-members .top div {
-  width: 65%;
-  height: 65%;
-  font-family: cursive;
+
+.recipe {
+  height: initial;
 }
 
 .title a {

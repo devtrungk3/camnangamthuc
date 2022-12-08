@@ -14,7 +14,11 @@
 }
 
 .right-form {
-    background: #f75959;
+    background: #f75959ba;
+}
+
+.left-form {
+    background: #ffffffdc;
 }
 
 .left-form button {

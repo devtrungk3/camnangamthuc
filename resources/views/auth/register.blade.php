@@ -85,7 +85,7 @@
             <label class="title text-center fs-50 text-white">Đăng ký</label>
             <div class="row justify-content-center">
                 <div class="d-md-flex col-md-12 shadow p-0 rounded-3 overflow-hidden" id="main-form">
-                    <div class="col-md-6 left-form p-5 bg-white">
+                    <div class="col-md-6 left-form p-5">
 
                         <!-- Name -->
                         <div class="form-group pb-4">
@@ -125,8 +125,6 @@
                     <div class="col-md-6 right-form p-4 d-flex justify-content-center align-items-center">
                         <div class="form-group text-center text-white">
                             <div class="fs-35 text-center pb-4">Xin chào</div>
-                            <label class="pb-4" for="">Trở thành thành viên để có những trải nghiệm
-                                mới</label>
                         </div>
                     </div>
                 </div>

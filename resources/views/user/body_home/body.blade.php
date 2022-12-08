@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="/css/body_home.css">
 
-<div class="container-fluid welcome">
+<div class="container-fluid welcome text-center">
     <span style="margin-right: 20px">
-        <i class="bi bi-book" style="font-size: 60px"></i>
+        <i class="far fa-hat-chef" style="font-size: 60px"></i>
     </span>
-    Chào mừng đến với bình nguyên vô tận
+    Muốn Ăn Thì Lăn Vào Bếp
     <span style="margin-left: 20px">
-        <i class="bi bi-book" style="font-size: 60px"></i>
+        <i class="far fa-hat-chef" style="font-size: 60px"></i>
     </span> 
 </div>
 

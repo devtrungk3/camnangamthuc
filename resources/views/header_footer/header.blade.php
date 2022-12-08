@@ -2,13 +2,13 @@
 
 <div style="height: 65px" class="bg-dark"></div>
 
-<nav class="navbar navbar-expand-lg navbar-dark pos-fixed w-100 px-2 top-0 left-0" style="background-color: rgba(0, 0, 0, 0.696)" id="header">
+<nav class="navbar navbar-expand-lg navbar-dark pos-fixed w-100 px-2 top-0 left-0" style="background-color: rgba(0, 0, 0, 0.816)" id="header">
     <a href="#" class="nav-brand p-0 rounded-circle overflow-hidden" id="nav-brand">
         <img src="https://cs-wordpress.s3.amazonaws.com/crowdsource-v4/uploads/2014/07/recipes.png" alt="" style="height: 50px">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span><i class="fad fa-bars"></i></span>
     </button>
     <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
         <ul class="navbar-nav">
@@ -46,7 +46,7 @@
                 @if ($name != 'Tm9uZQ==')
                     <div class="dropdown">
                         <div class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="">
-                            <i class="bi bi-person-fill pe-1"></i>
+                            <i class="far fa-user-circle"></i>
                             {{ Auth::user()->name }}
                         </div>
                         <ul class="dropdown-menu" style="background-color: rgba(0, 0, 0, 0.962)" >

@@ -5,22 +5,22 @@
     <section class="d-flex justify-content-center justify-content-lg-around p-4 border-top border-bottom">
         <div class="follow">
             <a href="" class="p-5 link-secondary">
-                <i class="bi bi-facebook"></i>
+                <i class="fab fa-facebook"></i>
             </a>
             <a href="" class="p-5 link-secondary">
-                <i class="bi bi-twitter"></i>
+                <i class="fab fa-twitter"></i>
             </a>
             <a href="" class="p-5 link-secondary">
-                <i class="bi bi-google"></i>
+                <i class="fab fa-google"></i>
             </a>
             <a href="" class="p-5 link-secondary">
-                <i class="bi bi-instagram"></i>
+                <i class="fab fa-instagram"></i>
             </a>
             <a href="" class="p-5 link-secondary">
-                <i class="bi bi-linkedin"></i>
+                <i class="fab fa-linkedin"></i>
             </a>
             <a href="" class="p-5 link-secondary">
-                <i class="bi bi-github"></i>
+                <i class="fab fa-github"></i>
             </a>
         </div>
     </section>
@@ -34,7 +34,7 @@
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-center">
                     <!-- logo -->
-                    LOGO
+                    <img src="https://cs-wordpress.s3.amazonaws.com/crowdsource-v4/uploads/2014/07/recipes.png" alt="" style="max-width: 150px">
                 </div>
                 <!-- Grid column -->
 
@@ -84,12 +84,12 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-left">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">Liên hệ</h6>
-                    <p><i class="bi bi-house-door-fill me-3 text-secondary"></i> VKU, Đà Nẵng, Việt Nam</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> VKU, Đà Nẵng, Việt Nam</p>
                     <p>
-                        <i class="bi bi-envelope-fill me-3 text-secondary"></i>
+                        <i class="fas fa-envelope me-2"></i>
                         info@example.com
                     </p>
-                    <p><i class="bi bi-phone-fill me-3 text-secondary"></i> +01 234 567 89</p>
+                    <p><i class="fas fa-phone me-2"></i> +01 234 567 89</p>
                 </div>
                 <!-- Grid column -->
             </div>
