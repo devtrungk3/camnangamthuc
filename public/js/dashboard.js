@@ -1,37 +1,31 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-    const showNavbar = (toggleId, navId, bodyId, headerId) => {
-        const toggle = document.getElementById(toggleId),
-            nav = document.getElementById(navId),
-            bodypd = document.getElementById(bodyId),
-            headerpd = document.getElementById(headerId);
+(function () {
+    "use strict";
 
-        // Validate that all variables exist
-        if (toggle && nav && bodypd && headerpd) {
-            toggle.addEventListener("click", () => {
-                // show navbar
-                nav.classList.toggle("show");
-                // change icon
-                toggle.classList.toggle("fa-times");
-                // add padding to body
-                bodypd.classList.toggle("body-pd");
-                // add padding to header
-                headerpd.classList.toggle("body-pd");
-            });
+    var treeviewMenu = $(".app-menu");
+
+    // Toggle Sidebar
+    $('[data-toggle="sidebar"]').click(function (event) {
+        event.preventDefault();
+        $(".app").toggleClass("sidenav-toggled");
+    });
+
+    // Activate sidebar treeview toggle
+    $("[data-toggle='treeview']").click(function (event) {
+        event.preventDefault();
+        if (!$(this).parent().hasClass("is-expanded")) {
+            treeviewMenu
+                .find("[data-toggle='treeview']")
+                .parent()
+                .removeClass("is-expanded");
         }
-    };
+        $(this).parent().toggleClass("is-expanded");
+    });
 
-    showNavbar("header-toggle", "nav-bar", "body-pd", "header");
+    // Set initial active toggle
+    $("[data-toggle='treeview.'].is-expanded")
+        .parent()
+        .toggleClass("is-expanded");
 
-    /*===== LINK ACTIVE =====*/
-    const linkColor = document.querySelectorAll(".nav_link");
-
-    function colorLink() {
-        if (linkColor) {
-            linkColor.forEach((l) => l.classList.remove("active"));
-            this.classList.add("active");
-        }
-    }
-    linkColor.forEach((l) => l.addEventListener("click", colorLink));
-
-    // Your code to run since DOM is loaded and ready
-});
+    //Activate bootstrip tooltips
+    $("[data-toggle='tooltip']").tooltip();
+})();
