@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark pos-fixed w-100 px-2 top-0 left-0" style="background-color: rgba(0, 0, 0, 0.816)" id="header">
     <a href="#" class="nav-brand p-0 rounded-circle overflow-hidden" id="nav-brand">
-        <img src="https://cs-wordpress.s3.amazonaws.com/crowdsource-v4/uploads/2014/07/recipes.png" alt="" style="height: 50px">
+        <img src="https://lh3.googleusercontent.com/m4rPyZzr00EplABQrPxLKtxymcfDidQZzRMt_qHg2-jEAMl07hh2ujh73KS8N7HVjDSzfLLmjZ0ikeM-T9bPraCjQBX1uNHHqoSrQG5WdGZpZL8Gkbfcs7nXOwWx6uiIVA4KMGKAanLPr1OyyqzYpmit0a6KZLLzs6YuHq0t7WaS0WWSMipcj26JNzTXIS5EP1CiLGm7mFtHImR9qsg9DYqMMZVeF7zO5BrdHEUOHwefVFSC_YToZEPBNYqInU9Vh2KmMfce23dcTtzY8T89EhsGq21Uuvky9pCUTrCOVFqFAW6got9B3Fs5mRAlBVZf2GfaxQwTQZqAZO-quOsf-NJuABQqJu2Srd3E0qyAO2f2o31GngV5vxjXQX4tiG7RmYvg2QgAKVPIQot9fJhcV34vBnxSu2ertoywDLwLTWvMHe-x-tkZGsFVerOqcPyOwb3BhKNxLdA56NPRvzqAJKRDet_Y2-rMJUDzWaeF6jy4aqbMi0CaaP6LceaJslaEylF9Hu05XTd8V97An7LJv7qbCsEbfJ2WmAnXQNATCDSQnl1-QjVRfyOlRuw-OL2D_sGGUFJQCqPWoVdy54XuHSu3tkNusZawBzjHcgNs6WTZapdZtyzF1s--C-q2u4zFSwy9RPClFOpfYp6U8oaWyuTGQnV6UqB7xiQyPzZ3cLq43EyXaCpRmiFNyvR2ZqBitHHeA0-aMruATQhpmqTBEtpBbIZnuvn0wSbfxQDW5y9r7g4h1wX9eoRL4xWqLVhGS0QYpx4kRBasqRZqX_WX2sd9gw0TB9NONwF9NeZNRvGzDqbwUH6Y8JndFKRiTG64CFSSrUqKCNdAxSNa9RU6WZTR1VchTcJ3VkBZf4459hSON8tkp0Cmxqa5F3AEPOChyJC7I4G9ooHXxZ_MigoeDuzMKNHtlLiu1s3oraSRW0wmjdvRCnVSAbqGZvmyHuUbbkU3Dxz-kou7d9H3eBDR0pZF5WIWLdfvs7LhutHhQZNMKHDhukHd9C6RJ1OEFhTNV1MtQH7uMi-cXt8j5dwf9gJTfD1KRcWyf5Y55EIJb02bmnR0LRd7EN_HSdSbv0E=s220-no?authuser=2" alt="" style="height: 50px">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,6 +27,10 @@
             <li class="nav-item px-3">
                 <a href="{{ route('share') }}" class="nav-link" id="">Chia sẻ</a>
             </li>
+            <li class="nav-item px-3">
+                <a href="{{ route('favorites') }}" class="nav-link" id="">Mục yêu thích</a>
+            </li>
+
             <li class="hidden nav-item px-3">
                 @if (Route::has('login'))
                     @auth 
@@ -55,6 +59,7 @@
                                 @csrf
                                 <li><a class="dropdown-item text-warning" href="{{ route('logout') }}" onclick="event.preventDefault();this.closest('form').submit();">Đăng xuất</a></li>
                             </form>
+                           
                         </ul>
                     </div>
                 @endif

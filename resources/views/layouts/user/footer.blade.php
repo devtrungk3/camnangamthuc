@@ -34,7 +34,7 @@
                 <!-- Grid column -->
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-center">
                     <!-- logo -->
-                    <img src="https://cs-wordpress.s3.amazonaws.com/crowdsource-v4/uploads/2014/07/recipes.png" alt="" style="max-width: 150px">
+                    <img src="https://lh3.googleusercontent.com/7UTPR9JCx02nEDExpQCvZeZImkyVbvkFh7Opn2sKZe5ipJQpVlbh8-5587SQyzxfi60twllsPzwXocFwG-z5zChrytzZMR6LGIZ9RSAqtF9pSPw9_7TdAEkfrMqRTpO1ok6xW8E8fR5AfpQKx89Umg5y6FpCmckDPmPMZQW7-OuShBuiQcUG3h4BpSNie26dsC35_8CmyM7LN4l-gm_EImmCtJePFA3-Yw0MvbhLoukh7mYyuAICOM-ZW1i5oHe2drujx3IpzIsmQ0-J7PUPFgguSNMGF66EslwBLQrW8xPm7I6sBFTRZhYsKwJWRKIfBqmComPvgqQ1M0MxVavTDCfjoqv7sIL1BBDRdodykdGPCtHo6CUwwmy-assyIn3NHFVQXmJqEY6umWdtyhd9rqxZWHWCQJqWUHTnI97QnylJNKaQrDGDU7KTILfoMydjTw4UR5IXWXYIovRT7js0EA1LMuR35IDm8sUgqwVVzPV9P-P85W-14AP6x4j_AcNrPOz8WrCCaOJ4buzNirapI-kVgXlno2vZj1LqupKdw03T2E5oOQGDz1hii49t5w1tH1o4Ynl_B7ygOBdxa2gmd6Kjoxgf3Rodc6pow4br8wCMGbrpfokKGVyla8uwjYjnSJJPq9qq4yVzAq_ZEn9ZchgnOjXAJwU05dlk3P25pAf6OQOfkpA4eybKcDUQNg1_4YmvYqam-8AV51FDA9v-5RQdJ50hcm7NXVxeUgvpjRuOo396qBdNcIW8MgfZYFbr8KMmjvjTAMLXI193TsNA6XyBXRob8s26pRdaUqUToyquKXDmYcv2ctAMghUJIlcM4FD-NYsXpCgoPEjCbEeKLRLsGAJbYl7GdL5fq6fN7GSnclHmB5JEdL48GyFyOpqjfvr57Wl0-ffSUt1Vej_w9fLuz82TmKNG88SW0pU4mk4-gdYLzjfiMta857fVRjeJejO0HBv8f6_U6pw32zXZeD7-2Q00NTWuFtG51wii3OkJO0hydYIBDkyWi0-5BQZSf37FqBpKh7yD7RFU3HKMPkT-h9tbqxfuXVzq0YQGmNZI_eQgTKhi4lDxQL6It1c=s450-no?authuser=2" alt="" style="max-width: 150px">
                 </div>
                 <!-- Grid column -->
 
