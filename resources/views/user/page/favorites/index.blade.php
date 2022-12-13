@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chia sẻ</title>
+    @include('layouts.user.link.toplibs')
 </head>
 <body>
-    @include('library.toplibs')
-    @include('header_footer.header')
-    @include('share.body')
-    @include('header_footer.footer')
-    @include('library.bottomlibs')
+    
+    @include('layouts.user.header')
+
+    @include('layouts.user.footer')
+
+    @include('layouts.user.link.botlibs')
 </body>
 </html>

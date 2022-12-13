@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="/css/body_news.css">
 </head>
 <body>
-    @include('library.toplibs')
+    @include('layouts.user.link.toplibs')
     
-    @include('header_footer.header')
+    @include('layouts.user.header')
     
     @include('user.page.news.search_header')
 
     @include('user.page.news.body_news_1')
     @include('user.page.news.body_news_2')
 
-    @include('header_footer.footer')
+    @include('layouts.user.footer')
 
-    @include('library.bottomlibs')
+    @include('layouts.user.link.botlibs')
 </body>
 </html>

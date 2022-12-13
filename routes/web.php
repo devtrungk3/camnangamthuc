@@ -28,15 +28,36 @@ Route::get('/news', function () {
     return view('user.page.news.news');
 })->name('news');
 Route::get('/share', function () {
-    return view('share.share');
+    return view('user.page.share.share');
 })->name('share');
 
 
 
+Route::middleware(['auth','verified'])->group(function () {
+//admin
+    Route::get('/dashboard/recipes/create',function(){ return view('admin.page.recipes.create'); })->name('create_recipes');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+        Route::get('/dashboard',function(){ return view('admin.dashboard'); })->name('dashboard');
+        Route::get('/adminprofile',function(){ return view('admin.admin_profile'); })->name('admin_profile');
+        Route::get('/dashboard/recipes',function(){ return view('admin.page.recipes.index'); })->name('manage_recipes');
+        Route::get('/dashboard/tips',function(){ return view('admin.page.tips.index'); })->name('manage_tips');
+
+        Route::get('/dashboard/categories',function(){ return view('admin.page.tips.index'); })->name('manage_categories');
+        Route::get('/dashboard/categories_properties',function(){ return view('admin.page.tips.index'); })->name('manage_categories_properties');
+
+        Route::get('/dashboard/news',function(){ return view('admin.page.news.index'); })->name('manage_news');
+        Route::get('/dashboard/users',function(){ return view('admin.page.users.index'); })->name('manage_users');
+        Route::get('/dashboard/comments',function(){ return view('admin.page.comments.index'); })->name('manage_comments');
+        Route::get('/dashboard/feedbacks',function(){ return view('admin.page.feedbacks.index'); })->name('manage_feedbacks');
+
+
+        Route::get('/dashboard/comming',function(){ return view('admin.page.comming_soon'); })->name('comming_soon_admin');
+//user
+Route::get('/favorites',function(){ return view('user.page.favorites.index'); })->name('favorites');
+    });
+
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -45,3 +66,43 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
