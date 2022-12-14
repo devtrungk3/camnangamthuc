@@ -35,10 +35,86 @@
 </head>
 
 <body class="app sidebar-mini rtl">
+<<<<<<< HEAD
 
     @include('layouts.admin.header')
     @include('layouts.admin.sidebar')
 
+=======
+    <!-- Navbar-->
+    {{-- <header class="app-header">
+        <!-- Sidebar toggle button-->
+
+        <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar">
+        </a>
+    </header> --}}
+    @include('layouts.admin.header')
+
+
+
+    <!-- Sidebar menu-->
+    {{-- <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <ul class="app-menu">
+            <li>
+                <a class="app-menu__item" href="{{ route('dashboard') }}">
+                    <i class="fa fa-home app-menu__icon" aria-hidden="true"></i>
+                    <span class="app-menu__label">Dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="app-menu__item" href="{{ route('manage_recipes') }}">
+                    <i class="far fa-hat-chef app-menu__icon" aria-hidden="true"></i>
+                    <span class="app-menu__label">Công thức nấu ăn</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="app-menu__item" href="{{ route('manage_tips') }}">
+                    <i class="far fa-lightbulb-on app-menu__icon" aria-hidden="true"></i>
+                    <span class="app-menu__label">Mẹo vặt</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="{{ route('manage_news') }}">
+                    <i class="fas fa-newspaper app-menu__icon" aria-hidden="true"></i>
+                    <span class="app-menu__label">Tin tức</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="{{ route('manage_comments') }}">
+                    <i class="fas fa-comment app-menu__icon" aria-hidden="true"></i>
+                    <span class="app-menu__label">Bình luận</span>
+                </a>
+            </li>
+         
+            <li>
+                <a class="app-menu__item" href="{{ route('manage_users') }}">
+                    <i class="far fa-users app-menu__icon"></i>
+                    <span class="app-menu__label">Người dùng</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="{{ route('manage_feedbacks') }}">
+                    <i class="far fa-comments app-menu__icon"></i>
+                    <span class="app-menu__label">Phản hồi</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" href="{{ route('admin_profile') }}">
+                    <i class="far fa-info-square app-menu__icon"></i>
+                    <span class="app-menu__label">Thông tin tài khoản</span>
+                </a>
+            </li>
+        
+        </ul>
+    </aside> --}}
+    @include('layouts.admin.sidebar')
+
+
+
+>>>>>>> 6d22204579a8886ab5f1adb309ae264455280ab5
     <main class="app-content">
         <div class="app-title">
             <div>
