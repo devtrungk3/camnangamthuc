@@ -76,9 +76,9 @@
 <body>
     <link rel="stylesheet" href="css/login.css">
 
-    @include('library.toplibs')
+    @include('layouts.user.link.toplibs')
 
-    @include('header_footer.header')
+    @include('layouts.user.header')
     <form class="flogin" method="POST" action="{{ route('register') }}">
         @csrf
         <div class="container">
@@ -132,9 +132,9 @@
         </div>
     </form>
 
-    @include('header_footer.footer')
+    @include('layouts.user.footer')
 
-    @include('library.bottomlibs')
+    @include('layouts.user.link.botlibs')
 
 </body>
 

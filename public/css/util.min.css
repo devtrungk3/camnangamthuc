@@ -20,6 +20,10 @@ html {
     box-sizing: border-box
 }
 
+a {
+    text-decoration: none;
+}
+
 a:focus {
     outline: 0
 }

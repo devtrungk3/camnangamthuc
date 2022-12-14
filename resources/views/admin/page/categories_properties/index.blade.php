@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quản Lý</title>
+    <title>Quản Lý Danh Mục Con </title>
     @include('layouts.user.link.toplibs')
     @include('layouts.admin.link.toplibs')
 </head>
@@ -18,8 +18,9 @@
     @include('layouts.admin.sidebar')
     <main class="app-content">
        
-        @yield('content')
+    
    
+       
     </main>
     @include('layouts.user.link.botlibs')
     @include('layouts.admin.link.botlibs')

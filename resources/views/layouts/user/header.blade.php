@@ -27,6 +27,10 @@
             <li class="nav-item px-3">
                 <a href="{{ route('share') }}" class="nav-link" id="">Chia sẻ</a>
             </li>
+            <li class="nav-item px-3">
+                <a href="{{ route('favorites') }}" class="nav-link" id="">Mục yêu thích</a>
+            </li>
+
             <li class="hidden nav-item px-3">
                 @if (Route::has('login'))
                     @auth 
@@ -55,6 +59,7 @@
                                 @csrf
                                 <li><a class="dropdown-item text-warning" href="{{ route('logout') }}" onclick="event.preventDefault();this.closest('form').submit();">Đăng xuất</a></li>
                             </form>
+                           
                         </ul>
                     </div>
                 @endif
